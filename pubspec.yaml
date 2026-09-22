@@ -1,0 +1,38 @@
+name: ecommerceapp
+description: "Flutter E-Commerce Showcase — A portfolio-ready e-commerce app built with clean architecture, Provider state management, and Material 3 design."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # UI & Icons
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  provider: ^6.1.2
+
+  # Internationalization
+  intl: ^0.20.2
+
+  # Toast Notifications
+  fluttertoast: ^8.2.10
+
+  # Page Indicator for banners
+  smooth_page_indicator: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
